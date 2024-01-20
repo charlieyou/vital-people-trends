@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/store_people_count",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
