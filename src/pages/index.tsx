@@ -19,7 +19,14 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Vital People Count</title>
+        <title>Is Vital Busy???</title>
+
+        <meta name="description" content="Live count of people at Vital" />
+        <meta property="og:title" content="Vital People Count" />
+        <meta property="og:description" content="See how many people are currently at Vital" />
+        <meta property="og:image" content="/vital.jpg" />
+        <meta property="og:url" content="https://isvitalbusy.com" />
+
         <link 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
           rel="stylesheet"
